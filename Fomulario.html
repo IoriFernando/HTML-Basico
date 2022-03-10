@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fomulário</title>
+	</head>
+
+	<body>
+
+		<h2>Entrar</h2>
+
+		<form><!-- Tag para formulários -->
+			
+
+			Login:<br>
+			<input type="text" name="Login"><br><!-- Para o usuário inserir um tipo de dado
+			se utiliza essa tag onde type é o tipo e name e a maneira que esse 
+			dado será recuperado -->
+			Senha:<br>
+			<input type="password" name="Senha"><br>
+			<!-- No type tipo password o conteúdo fica oculto caso o usuário queira -->
+			<input type="submit" value="Entrar">
+		</form>
+
+		<form>
+			<h2>Cadrastre-se</h2>
+			Sexo:<br>
+			<!-- No type radio é utilizado para selecionar um alguma coisa 
+			e para ser escolhida apenas uma opção basta as opções terem o 
+			mesmo name -->
+			<input type="radio" name="sexo"> Masculino <br>
+			<input type="radio" name="sexo"> Feminino <br>
+			<input type="radio" name="sexo"> Outro <br>
+
+			<h2>Interreses</h2>
+			<!-- No type checkbox é utilizado para quando pode have mais de uma
+			opção a ser marcada -->
+			<input type="checkbox" name="">Esportes<br>
+			<input type="checkbox" name="">Política<br>
+			<input type="checkbox" name="">Fofocas<br>
+			<input type="checkbox" name="">Televisão<br>
+			<input type="checkbox" name="">Economia<br>
+
+			<h2>Estado</h2>
+			<!-- A tag select é utilizado quando há a necessidade do usuário retornar
+			um dado conforme os que já foram estabelecidos podendo definir valores-->
+			<select>
+				<option value="capital">Capital</option>
+				<option value="interior">Interior</option>
+			</select>
+
+			<h1>Observações:</h1><br><br>
+			<textarea></textarea><br>
+			<input type="submit" name="Cadrastar">
+
+		</form>
+
+	</body>
+
+	
+</html>
